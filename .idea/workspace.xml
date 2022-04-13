@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad4053b-43bd-44a0-8a09-8edc392d23b5" name="Changes" comment="refactor place dirs">
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
+    <list default="true" id="bad4053b-43bd-44a0-8a09-8edc392d23b5" name="Changes" comment="fix php version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +99,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -111,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649865246458</updated>
       <workItem from="1649865247687" duration="285000" />
-      <workItem from="1649867298830" duration="367000" />
+      <workItem from="1649867298830" duration="1020000" />
     </task>
     <task id="LOCAL-00001" summary="added docker-compose.yml&#10;added Dockerfile">
       <created>1649865308080</created>
@@ -127,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649867596562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix php version">
+      <created>1649867873007</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649867873007</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +164,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added docker-compose.yml&#10;added Dockerfile" />
     <MESSAGE value="refactor place dirs" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor place dirs" />
+    <MESSAGE value="fix php version" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix php version" />
   </component>
 </project>
