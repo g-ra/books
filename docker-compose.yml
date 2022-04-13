@@ -3,16 +3,15 @@ version: '3'
 services:
 ###> doctrine/doctrine-bundle ###
   database:
-    image: postgres:${POSTGRES_VERSION:-13}-alpine
+    container_name: books
+    image: postgres:13-alpine
     environment:
       POSTGRES_DB: books
       # You should definitely change the password in production
-      POSTGRES_PASSWORD: secret
-      POSTGRES_USER: symfony
-    volumes:
-      - db-data:/var/lib/postgresql/data:rw
-      # You may use a bind-mounted host directory instead, so that it is harder to accidentally remove the volume and lose all your data!
-      # - ./docker/db/data:/var/lib/postgresql/data:rw
+      POSTGRES_PASSWORD: books
+      POSTGRES_USER: books
+    ports:
+      - 5432:5432
   php:
     container_name: php
     build:
